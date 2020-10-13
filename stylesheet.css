@@ -1,15 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
 
-body {
-    font-family: "Sans-Serif";
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
   }
-  .class {
-    padding:5px
-  }
+
+
   li {
     list-style: none;
     float: left;
     /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
     padding:33px 20px 33px 20px; 
+  }
+
+  header{
+    width: 100%;
+    position :fixed;
+    top: 0;
+    z-index: 10;
   }
   
   .header {
@@ -18,6 +45,7 @@ body {
     color: #fff;
     height: 80px;
     border-radius: 100px 10px 100px 100px;
+    margin:10px;
   
   }
   
@@ -52,4 +80,109 @@ body {
   }
   .kotak:hover {
       border-radius: 50%;
+  }
+
+
+  .top-wrapper {
+    padding: 280px 0 100px 0;
+    background-image: url(image/teammain.jpg);
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+
+
+
+
+
+  .team-wrapper, .ucapan-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+  .team-wrapper{
+    background-color: #222f3e;
+  }
+  
+
+  .ucapan-wrapper{
+    background-color: #f7f7f7;
+  }
+  
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  
+  .team-wrapper .heading ,  .team-wrapper h3{
+    color: #ffffff;
+
+  }
+  .ucapan-wrapper .heading {
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .team {
+    float: left;
+    width: 25%;
+  }
+  
+  .team-icon {
+    position: relative;
+  }
+
+  .team-icon img {
+      width: 50%;
+      border-radius: 50%;
+  }
+  
+  .team-icon p {
+      margin-top: 10px;
+    width: 100%;
+  }
+
+
+  
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #424242;
+  }
+
+
+
+
+
+
+
+
+  footer p {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
