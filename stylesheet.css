@@ -1,1 +1,55 @@
 
+body {
+    font-family: "Sans-Serif";
+  }
+  .class {
+    padding:5px
+  }
+  li {
+    list-style: none;
+    float: left;
+    /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
+    padding:33px 20px 33px 20px; 
+  }
+  
+  .header {
+    background-color: deepskyblue;
+    opacity: 75%;
+    color: #fff;
+    height: 80px;
+    border-radius: 100px 10px 100px 100px;
+  
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+   padding: 10px 40px; 
+  }
+  
+  .main {
+    background: url(school.png);
+    padding: 50px 50px;
+    height: 600px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  img {
+      width: 60px;
+      position: top;
+  }
+  .kotak{
+      width: 150px;
+      height: 60px;
+      background-color: gray;
+      text-align: center;				
+      line-height: 50px;
+      margin: 10px;
+      float: left;
+      transition: 1s;
+  }
+  .kotak:hover {
+      border-radius: 50%;
+  }
