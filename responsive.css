@@ -10,12 +10,31 @@
         width: 50%;
         margin-bottom: 50px;
       }
+
+    .header-list{
+        display: block;
+    }
+
+    .menu-btn{
+        display: none;
+    }
+
+
+    
 }
 
 
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+
+    .header-list{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+    }
 
     .top-wrapper h1 {
       font-size: 24px;
@@ -24,4 +43,8 @@
     .team {
         width: 100%;
       }
+    
+  .team-icon img {
+    width: 50%;
+    }
 }

@@ -222,3 +222,24 @@
     padding-bottom: 20px;
     background-color:#222f3e;
   }
+
+
+
+
+  .menu-btn {
+    display: block;
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 999999;
+}
+
+.menu-icon {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 30px;
+  padding: 21px 0;
+  display:  none;
+}
