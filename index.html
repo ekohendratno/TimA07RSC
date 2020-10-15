@@ -8,9 +8,13 @@
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
+  
+<div class="loader"></div>
+
   <header>
     <div class="header">
       <div class="header-logo"><a href="index.html"><img src="image/student.svg"></a></div>
@@ -89,5 +93,10 @@
     </div>
   </footer>
 </body>
+<script type="text/javascript">
+  ;(function () {
+          $(".loader").fadeOut("slow");
 
+}());
+  </script>
 </html>
