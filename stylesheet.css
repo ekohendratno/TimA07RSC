@@ -224,7 +224,14 @@
   }
 
 
+  .fa {
+    font-size: 34px;
+    padding: 20px;
+}
 
+  .menu-btn{
+    display: none;
+}
 
   .menu-btn {
     display: block;
