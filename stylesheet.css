@@ -46,6 +46,7 @@
     height: 80px;
     border-radius: 100px 10px 100px 100px;
     margin:10px;
+    box-shadow: drop-shadow(16px 16px 10px black);
   
   }
   
@@ -55,6 +56,25 @@
     /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
    padding: 10px 40px; 
   }
+
+
+  .header-list{
+    margin-left: -25px;
+  }
+
+  .header-list a{
+    float: left;
+    line-height: 80px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+  }
+
+  .header-list a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
   
   .main {
     background: url(school.png);
@@ -81,6 +101,10 @@
   .kotak:hover {
       border-radius: 50%;
   }
+
+
+
+
 
 
   .top-wrapper {
@@ -139,10 +163,16 @@
   .heading h2 {
     font-weight: normal;
   }
+
+
+  .teams{
+    text-align: center;
+  }
   
   .team {
     float: left;
-    width: 25%;
+    width: 32%;
+    margin-bottom: 40px;
   }
   
   .team-icon {
@@ -150,7 +180,7 @@
   }
 
   .team-icon img {
-      width: 50%;
+      width: 30%;
       border-radius: 50%;
   }
   
@@ -170,6 +200,10 @@
     color: #424242;
   }
 
+  
+  .text-contents2 {
+    color: #cccccc;
+  }
 
 
 
@@ -180,9 +214,11 @@
   footer p {
     font-size: 12px;
     text-align: center;
+    color: white;
   }
   
   footer {
     padding-top: 30px;
     padding-bottom: 20px;
+    background-color:#222f3e;
   }
